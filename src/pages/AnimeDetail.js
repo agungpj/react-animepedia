@@ -45,8 +45,11 @@ const Container = styled.div`
   margin-left: 30px;
 
   z-index: 1;
-  display: flex;
+
   flex-direction: row;
+  @media only screen and (min-width: 1200px) {
+    display: flex;
+  }
 `;
 
 const ImgAnime = styled.img`
